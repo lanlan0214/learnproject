@@ -41,4 +41,6 @@ Brad Traversy
 This project is licensed under the MIT License
 
 ### Fake API
-npm run json:server
+```sh
+$ npm run json:server
+```
