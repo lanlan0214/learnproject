@@ -39,3 +39,6 @@ Brad Traversy
 ### License
 
 This project is licensed under the MIT License
+
+### Fake API
+npm run json:server
