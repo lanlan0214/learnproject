@@ -1,0 +1,16 @@
+.check {
+  background-color: rgb(60, 74, 236);
+  color: black;
+
+  animation: animate 2s infinite ease alternate;
+
+  @keyframes animate {
+    to {
+      transform : translateY(20px)
+    }
+  }
+
+  
+
+  
+}
