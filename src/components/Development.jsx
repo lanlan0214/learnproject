@@ -6,7 +6,7 @@ import styled from 'styled-components'
 
 const Desc = styled.div`
   width : 200px;
-  height : 70px;
+  height : 30px;
   padding : 20px;
   background-color : white;
   border-radius : 10px;
@@ -15,10 +15,10 @@ const Desc = styled.div`
   right : 100px;
 
   @media only screen and (max-width: 768px) {
-    bottom : 0;
-    left : 0;
     right : 0;
     top : 0;
+    bottom : 0;
+    left : 0;
     margin : auto;
   }
 `
@@ -32,7 +32,7 @@ const Development = () => {
         <Sky scale={1.5} />
       </Canvas>
       <Desc>
-        我們的產品設計注重世界一流的設計，同時確保您的產品在市場上能夠取得成功。
+        超級機器人。
       </Desc>
     </>
   )

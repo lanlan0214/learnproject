@@ -14,6 +14,7 @@ const Section = styled.div`
 
   @media only screen and (max-width: 768px) {
     height : 170vh;
+    scroll-snap-align: start;
   }
 `;
 const Container = styled.div`

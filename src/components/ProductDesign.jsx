@@ -11,14 +11,13 @@ const Desc = styled.div`
   background-color : white;
   border-radius : 10px;
   position : absolute;
-  bottom : 200px;
+  bottom : 500px;
   right : 100px;
 
   @media only screen and (max-width: 768px) {
-    bottom : 0;
-    left : 0;
+    bottom : 2rem;
     right : 0;
-    top : 0;
+    left : 0;
     margin : auto;
   }
 `
